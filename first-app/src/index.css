@@ -14,3 +14,37 @@ form{
 input,button{
   margin-top: 1rem;
 }
+
+#root {
+	display: flex;
+	flex-direction: column;
+}
+
+.card-form {
+	min-width: 500px;
+	align-self: center;
+	justify-self: center;
+}
+
+.card-form img {
+	margin: 1rem auto;
+}
+
+.card img {
+	cursor: pointer;
+}
+
+.recipe-details {
+	max-width: 500px;
+	align-self: center;
+	margin-top: 2rem !important;
+}
+
+.ui.item:first-child {
+	margin-top: 2rem !important;
+}
+
+.recipe-details+button {
+	max-width: 100px;
+	align-self: center;
+}
