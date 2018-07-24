@@ -45,7 +45,7 @@ const allRecipesReducer = (state = initialState.allRecipes, action) => {
 
         case actionTypes.SORT_BY_STARS_DESC:
             const copyState = [...state];
-            return copyState;
+            return copyState.sort(startsComparator);
 
         default:
             return state;
